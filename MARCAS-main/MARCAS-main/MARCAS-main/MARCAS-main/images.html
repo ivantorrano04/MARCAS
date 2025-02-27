@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Changer</title>
+    <link rel="stylesheet" href="cssImagenes.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="demo.html" class="nav-button">PERSONALIZER</a>
+            <a href="forms.html" class="nav-button">FORMS</a>
+            <a href="images.html" class="nav-button">IMAGES</a>
+            <a href="javascript:void(0);" id="darkModeButton" class="nav-button">Dark Mode</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Button, change Image</h1>
+        <!-- Sección superior con el botón -->
+        <div class="top-section">
+            <button id="changeImageButton">Change Image</button>
+            <img id="topImage" src="1.jpg" alt="Top Image">
+        </div>
+        <!-- Sección inferior con las imágenes automáticas -->
+        <div class="bottom-section">
+            <img id="autoImage" src="1.jpg" alt="Auto-changing Image">
+        </div>
+    </div>
+    <script src="jsImagenes.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+header {
+    background-color: #575757;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+}
+
+/* Estilos para el modo oscuro */
+body.dark-mode {
+    background-color: #121212; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+}
+
+/* Ajustes adicionales para elementos específicos */
+body.dark-mode header nav .nav-button {
+    background-color: #333; /* Botones más claros en modo oscuro */
+    color: white;
+}
+
+body.dark-mode header nav .nav-button:hover {
+    background-color: #555; /* Hover en modo oscuro */
+}
+
+.nav-button {
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    background-color: #555;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 60px; /* Ajusta según sea necesario */
+    left: 0;
+    background: #a4a2a2;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none; /* El menú está oculto por defecto */
+    z-index: 1;
+    padding: 10px;
+    border-radius: 9px;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+table td {
+    padding: 10px;
+}
+
+.menu-item {
+    display: block;
+    color: white;
+    background: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    color: #333;
+    border-radius: 8px ;
+    border-style: solid;
+    transition: all 0.3s ease; 
+}
+
+
+.menu-item:hover {
+    transform: scale(1.1); 
+    background-color: #ddd; 
+    color: #000; 
+}
+
+
+#bgRed {
+    background-color: red;
+    color: white;
+}
+
+#bgBlue {
+    background-color: blue;
+    color: white;
+}
+
+#bgGreen {
+    background-color: green;
+    color: white;
+}
+
+#bgYellow {
+    background-color: yellow;
+    color: #333;
+}
